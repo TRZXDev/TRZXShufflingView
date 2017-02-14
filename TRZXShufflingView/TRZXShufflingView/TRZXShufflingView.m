@@ -97,8 +97,9 @@ static NSString *CollectionCellID = @"TRZXShufflingCell";
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     TRZXShufflingCell *cell = (TRZXShufflingCell *)[collectionView cellForItemAtIndexPath:indexPath];
-    if ([self.delegate respondsToSelector:@selector(didClickImageAtIndex:scrollView:)]) {
-        [self.delegate didClickImageAtIndex:cell.index scrollView:self];
+
+    if (self.didClickImageAtIndexBlock) {
+        self.didClickImageAtIndexBlock(cell.index);
     }
 }
 
