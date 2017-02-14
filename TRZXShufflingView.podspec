@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'TRZXShufflingView'
   s.summary      = 'Asynchronous image loading framework.'
-  s.version      = '0.0.2'
+  s.version      = '0.0.3'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'fpli' => '952241861@qq.com' }
   s.homepage     = 'https://github.com/TRZXDev/TRZXShufflingView'
@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   
   s.requires_arc = true
   s.source_files = 'TRZXShufflingView/TRZXShufflingView/*.{h,m}'
+  s.resources    = 'TRZXShufflingView/TRZXShufflingView/**/*.{xib,png}'
   s.dependency "AFNetworking"
   
 end

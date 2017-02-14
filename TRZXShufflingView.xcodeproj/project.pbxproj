@@ -17,6 +17,7 @@
 		7163C00C1E51C01A0012AFE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7163C00A1E51C01A0012AFE9 /* LaunchScreen.storyboard */; };
 		7184763A1E5295E700D09537 /* TRZXShufflingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 718476381E5295E700D09537 /* TRZXShufflingCell.m */; };
 		7184763B1E5295E700D09537 /* TRZXShufflingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 718476391E5295E700D09537 /* TRZXShufflingCell.xib */; };
+		7184764E1E52ACA500D09537 /* consulting_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7184764D1E52ACA500D09537 /* consulting_logo@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		718476371E5295E700D09537 /* TRZXShufflingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXShufflingCell.h; sourceTree = "<group>"; };
 		718476381E5295E700D09537 /* TRZXShufflingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXShufflingCell.m; sourceTree = "<group>"; };
 		718476391E5295E700D09537 /* TRZXShufflingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXShufflingCell.xib; sourceTree = "<group>"; };
+		7184764D1E52ACA500D09537 /* consulting_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "consulting_logo@2x.png"; sourceTree = "<group>"; };
 		AEDD3F9A47A4B9EF51F86031 /* Pods-TRZXShufflingView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXShufflingView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXShufflingView/Pods-TRZXShufflingView.release.xcconfig"; sourceTree = "<group>"; };
 		B3D680B224AFCF78FAC99863 /* Pods-TRZXShufflingView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXShufflingView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXShufflingView/Pods-TRZXShufflingView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +122,7 @@
 				718476371E5295E700D09537 /* TRZXShufflingCell.h */,
 				718476381E5295E700D09537 /* TRZXShufflingCell.m */,
 				718476391E5295E700D09537 /* TRZXShufflingCell.xib */,
+				7184764D1E52ACA500D09537 /* consulting_logo@2x.png */,
 			);
 			path = TRZXShufflingView;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7184763B1E5295E700D09537 /* TRZXShufflingCell.xib in Resources */,
+				7184764E1E52ACA500D09537 /* consulting_logo@2x.png in Resources */,
 				7163C00C1E51C01A0012AFE9 /* LaunchScreen.storyboard in Resources */,
 				7163C0091E51C01A0012AFE9 /* Assets.xcassets in Resources */,
 				7163C0071E51C01A0012AFE9 /* Main.storyboard in Resources */,
